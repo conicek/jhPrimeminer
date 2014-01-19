@@ -3,12 +3,26 @@ jhPrimeminer
 
 jhPrimeminer is a optimized pool miner for primecoin.
 
-Binary versions will be made available here:
-https://www.dropbox.com/sh/sq24hzo993afy9c/l7icP0KiuM
+sudo tsocks apt-get update
 
-If you found this helpfull you can support my work.
+sudo tsocks apt-get install yasm -y git make g++ build-essential libminiupnpc-dev
 
-XPM: AUwKMCYCacE6Jq1rsLcSEHSNiohHVVSiWv
-LTC: LV7VHT3oGWQzG9EKjvSXd3eokgNXj6ciFE
-BTC: 1Fph7y622HJ5Cwq4bkzfeZXWep2Jyi5kp7
+sudo tsocks apt-get install -y libdb++-dev libgmp-dev libssl-dev dos2unix
+
+sudo tsocks apt-get install -y libboost1.48-all libboost-chrono1.48-dev 
+
+tsocks git clone https://github.com/conicek/jhPrimeminer
+
+cd jhPrimeminer
+
+make
+
+tsocks ./jhprimeminer -o http://mining.ypool.net:10034 -u <name.worker> -p <pass>
+
+
+
+donate 
+
+XPM: AT6DeCT1pD1BW4ofo2msmk1toHF7m5RzMy
+DOGE : DEm6SRgfpvS93rF17JSA7m4mkCYAgk4Ahs
 	
